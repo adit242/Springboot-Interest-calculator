@@ -1,0 +1,21 @@
+server:
+    port: 8082
+    servlet:
+      session:
+        tracking-modes: cookie
+spring:
+    profiles:
+        active: default
+  
+    data:
+           mongodb:
+               port: 27017
+               uri: mongodb://localhost:27017/test
+               host: localhost
+               database: test
+    application:
+     name: Interest
+percentage:
+    min: 1
+    mid: 2
+    max: 3
